@@ -1,4 +1,15 @@
 header {
-    font-size: large;
+    font-size: 1.5em;
     font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 20px 0;
+}
+
+body a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+body a:hover {
+    text-decoration: underline;
 }
