@@ -2,3 +2,25 @@ header {
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
 }
+
+.k-sidebar {
+    width: 8%;
+    padding: 4rem 1.5rem 4rem 1.5rem;
+    flex: 0 1 auto;
+    border-left: 2px solid black;
+    font-family: serif;
+    font-size: large;
+}
+
+.k-sidebar ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.k-sidebar ul li {
+    padding-bottom: 1em;
+}
+
+.k-sidebar ul li a {
+    text-decoration: underline;
+}
