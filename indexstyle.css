@@ -3,7 +3,7 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-.k-sidebar {
+.sidebar {
     width: 8%;
     padding: 4rem 1.5rem 4rem 1.5rem;
     flex: 0 1 auto;
@@ -12,27 +12,27 @@
     font-size: large;
 }
 
-.k-sidebar ul {
+.sidebar ul {
     list-style-type: none;
     padding-left: 0;
 }
 
-.k-sidebar ul li {
+.sidebar ul li {
     padding-bottom: 1em;
 }
 
-.k-sidebar ul li a {
+.sidebar ul li a {
     text-decoration: underline;
 }
 
-.k-outer-box {
+.outer-box {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     min-height: 100%;
 }
 
-.k-mid-box {
+.mid-box {
     flex: 1 1 auto;
     height: 100%;
     width: 100%;
@@ -40,7 +40,7 @@
     flex-direction: row;
 }
 
-.k-content-box {
+.content-box {
     background: white;
     flex: 1 1 auto;
     display: flex;
