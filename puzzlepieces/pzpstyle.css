@@ -1,0 +1,51 @@
+.header {
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sidebar {
+    width: 8%;
+    padding: 4rem 1.5rem 4rem 1.5rem;
+    flex: 0 1 auto;
+    border-left: 2px solid black;
+    font-family: serif;
+    font-size: large;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.sidebar ul li {
+    padding-bottom: 1em;
+}
+
+.sidebar ul li a {
+    text-decoration: underline;
+}
+
+.outer-box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    min-height: 100%;
+}
+
+.mid-box {
+    flex: 1 1 auto;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.content-box {
+    background: white;
+    flex: 1 1 auto;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin-left: 0;
+    flex-direction: column;
+}
